@@ -9,11 +9,17 @@
     <a href="https://codeclimate.com/github/arifszn/gitprofile/maintainability">
       <img src="https://api.codeclimate.com/v1/badges/c60f42d7d0b61bd33e98/maintainability" />
     </a>
+    <a href="https://github.com/arifszn/gitprofile/actions/workflows/test-deploy.yml">
+      <img src="https://github.com/arifszn/gitprofile/actions/workflows/test-deploy.yml/badge.svg" />
+    </a>
     <a href="https://github.com/arifszn/gitprofile/issues">
       <img src="https://img.shields.io/github/issues/arifszn/gitprofile"/>
     </a>
     <a href="https://github.com/arifszn/gitprofile/stargazers">
       <img src="https://img.shields.io/github/stars/arifszn/gitprofile"/>
+    </a>
+    <a href="https://github.com/arifszn/gitprofile/network/members">
+      <img src="https://img.shields.io/github/forks/arifszn/gitprofile"/>
     </a>
     <a href="https://github.com/arifszn/gitprofile/blob/main/package-lock.json">
       <img src="https://img.shields.io/snyk/vulnerabilities/github/arifszn/gitprofile"/>
@@ -70,11 +76,21 @@ To view a live example, **[click here](https://arifszn.github.io/gitprofile)**.
 
 Or try it **[online](https://stackblitz.com/edit/gitprofile)**.
 
+## 🎉 Thank you for the 400 stars!!
+
+<p>
+  <a href="https://arifszn.github.io/gitprofile">
+    <img src="https://user-images.githubusercontent.com/45073703/189209364-fc4df315-b66a-4654-907d-b0b7a9d2161e.gif" alt="Thank You" width="60%"/>
+  </a>
+</p>
+
+
 ## 🛠 Installation & Setup
 
-There are two ways to use **GitProfile**. Use either one.
+There are three ways to use **GitProfile**. Use any.
 
 - Forking this repo
+- Setting up locally
 - Installing as package
 
 ### Forking this repo
@@ -110,6 +126,29 @@ Your portfolio website will be live shortly. Any time you commit a change to the
 If you wish to add a custom domain, no CNAME file is required. Just add it to your repo's **Settings** ➜ **Pages** ➜ **Custom domain**.
 
 As this is a Vite project, you can also host your website to Netlify, Vercel, Heroku, or other popular services. Please refer to this [doc](https://vitejs.dev/guide/static-deploy.html) for a detailed deployment guide to other services.
+
+### Setting up locally
+
+- Clone the project and change directory.
+
+  ```shell
+  git clone https://github.com/arifszn/gitprofile.git
+  cd gitprofile
+  ```
+
+- Install dependencies.
+
+  ```shell
+  npm install
+  ```
+
+- Run dev server.
+
+  ```shell
+  npm run dev
+  ```
+
+- Finally, visit [`http://localhost:5173/gitprofile/`](http://localhost:5173/gitprofile/) from your browser.
 
 ### Installing as package
 
@@ -233,6 +272,9 @@ const config = {
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: true,
+
+    // Hide the ring in Profile picture
+    hideAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
@@ -512,4 +554,4 @@ To contribute, see the [Contributing guide](https://github.com/arifszn/gitprofil
 
 ## 📄 License
 
-[Apache-2.0 License](https://github.com/arifszn/gitprofile/blob/main/LICENSE)
+[MIT](https://github.com/arifszn/gitprofile/blob/main/LICENSE)

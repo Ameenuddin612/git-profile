@@ -88,6 +88,9 @@ const config = {
     // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
 
+    // Hide the ring in Profile picture
+    hideAvatarRing: false,
+
     // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
