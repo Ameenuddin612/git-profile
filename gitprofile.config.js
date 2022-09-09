@@ -12,7 +12,7 @@ const config = {
   },
   social: {
     linkedin: 'thatceokid',
-    twitter: '',
+    twitter: '0xthatceokid',
     facebook: '',
     instagram: '',
     dribbble: '',
