@@ -23,6 +23,9 @@ const config = {
     phone: '',
     email: 'thatceokid@gmail.com',
   },
+  resume: {
+    fileUrl: 'resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+  },
   skills: [
     'C/C++',
     'HTML/CSS',

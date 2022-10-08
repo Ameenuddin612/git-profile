@@ -66,11 +66,11 @@
 ✓ [SEO](#seo)  
 ✓ [Avatar and Bio](#avatar-and-bio)  
 ✓ [Social Links](#social-links)  
-✓ [Skills](#skills)  
-✓ [Experience](#experience)  
-✓ [Education](#education)  
-✓ [Projects](#projects)  
-✓ [Blog Posts](#blog-posts)
+✓ [Skill Section](#skills)  
+✓ [Experience Section](#experience)  
+✓ [Education Section](#education)  
+✓ [Projects Section](#projects)  
+✓ [Blog Posts Section](#blog-posts)
 
 To view a live example, **[click here](https://arifszn.github.io/gitprofile)**.
 
@@ -120,7 +120,7 @@ These instructions will get you a copy of the project and deploy your portfolio 
 
 - **Commit the changes:** Now commit to your **main** branch with your changes. Wait a few minutes so that the CI/CD pipeline can publish your website to GitHub Pages. You can check the progress in the [Actions](https://github.com/arifszn/gitprofile/actions) tab.
 
-Your portfolio website will be live shortly. Any time you commit a change to the **main** branch, the website will be automatically updated. If you face any issue viewing the website, double-check the `base` value in the `vite.config.js` file.
+Your portfolio website will be live shortly. Any time you commit a change to the **main** branch, the website will be automatically updated. If you face any issue viewing the website, double-check the `base` value in the `vite.config.js` file. Also, check if **Source** is set to **GitHub Actions** in **Settings** ➜ **Pages** ➜ **Build and deployment**.
 
 If you wish to add a custom domain, no CNAME file is required. Just add it to your repo's **Settings** ➜ **Pages** ➜ **Custom domain**.
 
@@ -217,6 +217,9 @@ const config = {
     website: '',
     phone: '',
     email: '',
+  },
+  resume: {
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: ['JavaScript', 'React.js'],
   experiences: [
