@@ -45,6 +45,12 @@ const config = {
     'Vercel',
   ],
   experiences: [
+     {
+      company: 'Spoon (PaySpoon Technologies)',
+      position: 'Associate Technology Engineer - Internship',
+      from: 'September 2022',
+      to: 'Present',
+    },
     {
       company: 'EazyPG (EazyApp Tech Pvt. Ltd.)',
       position: 'Flutter Developer - Internship',
