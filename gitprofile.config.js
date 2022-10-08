@@ -24,7 +24,7 @@ const config = {
     email: 'thatceokid@gmail.com',
   },
   resume: {
-    fileUrl: 'resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1196C7y9E8skvJu0ORM7Mv1vL7S7IIJWd/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C/C++',
