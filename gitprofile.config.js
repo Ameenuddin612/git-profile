@@ -50,18 +50,21 @@ const config = {
       position: 'Associate Technology Engineer - Internship',
       from: 'September 2022',
       to: 'Present',
+      companyLink: 'https://spoon.money',
     },
     {
       company: 'EazyPG (EazyApp Tech Pvt. Ltd.)',
       position: 'Flutter Developer - Internship',
       from: 'February 2022',
       to: 'August 2022',
+      companyLink: 'https://eazypg.in',
     },
     {
       company: 'Pet Perfect',
       position: 'Mobile Application Developer - Internship',
       from: 'November 2021',
       to: 'December 2021',
+      companyLink: 'https://petperfect.in',
     },
   ],
   education: [
@@ -79,9 +82,9 @@ const config = {
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
-    // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: '', // Please remove this and use your own tag id or keep it empty
+    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
+  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
     id: '', //  Please remove this and use your own id or keep it empty
     snippetVersion: 6,
