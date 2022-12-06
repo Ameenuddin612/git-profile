@@ -19,6 +19,7 @@ const config = {
     behance: '',
     medium: '',
     dev: '',
+    stackoverflow: '', // format: userid/username
     website: 'https://thatceokid.co',
     phone: '',
     email: 'thatceokid@gmail.com',
