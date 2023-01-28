@@ -88,18 +88,25 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Papersy',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'A platform that simplifies the process of sharing notes and question papers among OU affiliated colleges.',
+      imageUrl: 'https://play-lh.googleusercontent.com/xpChoLNgOIJr-1lsxQSztFjNzGEttUrHVCtqyH50CHmlq9bUdm0b0DZ0tMCG2CKZdJc=w480-h960-rw',
+      link: 'https://play.google.com/store/apps/details?id=com.thedumbcoders.papersy',
     },
     {
-      title: 'Project Name',
+      title: 'Pi6 Functions',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Serverless functions written in GO for the Pi6 Wallet application',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://github.com/mdmohsin/pi6_functions',
+    },
+    {
+      title: 'Bloggie',
+      description:
+        'A platform for users to write articles and generate revenue by sharing them',
+      imageUrl: 'https://raw.githubusercontent.com/mdmohsin7/bloggie/master/screenshots/Vector-Galaxy-s20-Mockup.png',
+      link: 'https://github.com/mdmohsin/bloggie',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
