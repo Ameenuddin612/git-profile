@@ -22,10 +22,10 @@ const config = {
     stackoverflow: '', // format: userid/username
     website: 'https://thatceokid.co',
     phone: '',
-    email: 'thatceokid@gmail.com',
+    email: 'mohsin.lp710@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1196C7y9E8skvJu0ORM7Mv1vL7S7IIJWd/view', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/14ZbG45dOiN4KpxnhEazOY1RbuLbjbc3u/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C/C++',
@@ -50,7 +50,7 @@ const config = {
       company: 'Spoon (PaySpoon Technologies)',
       position: 'Associate Technology Engineer - Internship',
       from: 'September 2022',
-      to: 'Present',
+      to: 'December 2022',
       companyLink: 'https://spoon.money',
     },
     {
