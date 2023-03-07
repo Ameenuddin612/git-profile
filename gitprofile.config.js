@@ -13,6 +13,7 @@ const config = {
   social: {
     linkedin: 'thatceokid',
     twitter: '0xthatceokid',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
@@ -20,6 +21,8 @@ const config = {
     medium: '',
     dev: '',
     stackoverflow: '', // format: userid/username
+    skype: '',
+    telegram: '',
     website: 'https://thatceokid.co',
     phone: '',
     email: 'mohsin.lp710@gmail.com',
