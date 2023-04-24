@@ -49,7 +49,14 @@ const config = {
     'Vercel',
   ],
   experiences: [
-     {
+    {
+      company: 'Cypherock (HODL Tech Pvt. Ltd.)',
+      position: 'Flutter App Developer - Contractor',
+      from: 'January 2023',
+      to: 'March 2023',
+      companyLink: 'https://cypherock.com',
+    },
+    {
       company: 'Spoon (PaySpoon Technologies)',
       position: 'Associate Technology Engineer - Internship',
       from: 'September 2022',
