@@ -51,6 +51,13 @@ const config = {
   ],
   experiences: [
     {
+      company: 'Cattle GURU (Cattkeguru Pvt. Ltd.)',
+      position: 'Flutter App Developer - Full time',
+      from: 'May 2023',
+      to: 'Present',
+      companyLink: 'https://cattleguru.in',
+    },
+    {
       company: 'Cypherock (HODL Tech Pvt. Ltd.)',
       position: 'Flutter App Developer - Contractor',
       from: 'January 2023',
