@@ -29,7 +29,7 @@ const config = {
     email: 'mohsin.lp710@gmail.com',
   },
   resume: {
-    fileUrl: 'hhttps://drive.google.com/file/d/1S8fey09eU_G1UDsbWEPvIfTTkZRQ_qDG/view', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1eJ17N78ZuA54piXSBjDp8szK_6-5yYmX/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C/C++',
