@@ -76,7 +76,7 @@ const CONFIG = {
     email: 'mohsin.lp710@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1dZIlcThFu514Q9dtCysTQbZYwbYdK1xa/view', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1RGscwHdqp12nKxg7t9vUJZo5Cudye5gM/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C/C++',
