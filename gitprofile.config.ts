@@ -61,9 +61,13 @@ const CONFIG = {
     linkedin: 'thatceokid',
     twitter: '0xthatceokid',
     mastodon: '',
+    researchGate: '',
     facebook: '',
     instagram: '',
+    reddit: '',
+    threads: '',
     youtube: '', // example: 'pewdiepie'
+    udemy: '',
     dribbble: '',
     behance: '',
     medium: '',
@@ -149,6 +153,26 @@ const CONFIG = {
       degree: 'Bachelor of Engineering - Information Technology',
       from: 'August 2019',
       to: 'June 2023',
+    },
+  ],
+  publications: [
+    {
+      title: 'Publication Title',
+      conferenceName: '',
+      journalName: 'Journal Name',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    },
+    {
+      title: 'Publication Title',
+      conferenceName: 'Conference Name',
+      journalName: '',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)

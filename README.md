@@ -69,6 +69,7 @@
 ✓ [Certification Section](#certifications)  
 ✓ [Education Section](#education)  
 ✓ [Projects Section](#projects)  
+✓ [Publication Section](#publications)  
 ✓ [Blog Posts Section](#blog-posts)
 
 To view a live example, **[click here](https://arifszn.github.io/gitprofile)**.
@@ -118,6 +119,8 @@ If you wish to add a custom domain, no CNAME file is required. Just add it to yo
 
 As this is a Vite project, you can also host your website to Netlify, Vercel, Heroku, or other popular services. Please refer to this [doc](https://vitejs.dev/guide/static-deploy.html) for a detailed deployment guide to other services.
 
+[**Not working?**](https://github.com/arifszn/gitprofile/discussions/548)
+
 ### Setting up locally
 
 - Clone the project and change directory.
@@ -139,11 +142,15 @@ As this is a Vite project, you can also host your website to Netlify, Vercel, He
   npm run dev
   ```
 
-- Finally, visit [`http://localhost:5173/gitprofile/`](http://localhost:5173/gitprofile/) from your browser.
+- Finally, visit `http://localhost:5173/gitprofile/` from your browser.
+
+> Alternatively, you can set up and run the project using Docker with **[Vail](https://github.com/arifszn/vail)**, a powerful tool for local development of JavaScript/TypeScript Apps.
 
 ## 🎨 Customization
 
 All the magic happens in the file `gitprofile.config.ts`. Open it and modify it according to your preference.
+
+You can leave most of the sections empty if you don't want to display them on your portfolio.
 
 ```ts
 // gitprofile.config.ts
@@ -208,9 +215,13 @@ const CONFIG = {
     linkedin: 'ariful-alam',
     twitter: 'arif_szn',
     mastodon: 'arifszn@mastodon.social',
+    researchGate: '',
     facebook: '',
     instagram: '',
+    reddit: '',
+    threads: '',
     youtube: '', // example: 'pewdiepie'
+    udemy: '',
     dribbble: '',
     behance: '',
     medium: 'arifszn',
@@ -278,6 +289,26 @@ const CONFIG = {
       degree: 'Degree',
       from: '2012',
       to: '2014',
+    },
+  ],
+  publications: [
+    {
+      title: 'Publication Title',
+      conferenceName: '',
+      journalName: 'Journal Name',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    },
+    {
+      title: 'Publication Title',
+      conferenceName: 'Conference Name',
+      journalName: '',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -396,7 +427,17 @@ You can create your own custom theme by modifying these values. Theme `procyon` 
 ```ts
 // gitprofile.config.ts
 const CONFIG = {
-  // ...
+  /**
+   * Defines the custom theme colors and styles for the application.
+   * The theme includes the following properties:
+   * - `primary`: The primary color used throughout the application.
+   * - `secondary`: The secondary color used for accents and highlights.
+   * - `accent`: The accent color used for special elements.
+   * - `neutral`: The neutral color used for backgrounds and text.
+   * - `base-100`: The base background color.
+   * - `--rounded-box`: The border radius for boxes and containers.
+   * - `--rounded-btn`: The border radius for buttons.
+   */
   themeConfig: {
     customTheme: {
       primary: '#fc055b',
@@ -407,7 +448,6 @@ const CONFIG = {
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
     },
-    // ...
   },
 };
 ```
@@ -421,7 +461,7 @@ const CONFIG = {
 const CONFIG = {
   // ...
   googleAnalytics: {
-    id: '',
+    id: 'G-XXXXXXXXX',
   },
 };
 ```
@@ -471,7 +511,7 @@ Your avatar and bio will be fetched from GitHub automatically.
 
 ### Social Links
 
-You can link your social media services you're using, including LinkedIn, Twitter, Mastodon, Facebook, Instagram, YouTube, Dribbble, Behance, Medium, dev, Stack Overflow, Skype, Telegram, personal website, phone and email.
+You can link your social media services you're using, including LinkedIn, Twitter, Mastodon, ResearchGate, Facebook, Instagram, Reddit, Threads, YouTube, Udemy, Dribbble, Behance, Medium, dev, Stack Overflow, Skype, Telegram, personal website, phone and email.
 
 ```ts
 // gitprofile.config.ts
@@ -481,9 +521,13 @@ const CONFIG = {
     linkedin: 'ariful-alam',
     twitter: 'arif_szn',
     mastodon: 'arifszn@mastodon.social',
+    researchGate: '',
     facebook: '',
     instagram: '',
+    reddit: '',
+    threads: '',
     youtube: '',
+    udemy: '',
     dribbble: '',
     behance: '',
     medium: '',
@@ -657,6 +701,30 @@ const CONFIG = {
   },
 };
 ```
+
+### Publications
+
+Provide your academic publishing in `publications`.
+
+```ts
+// gitprofile.config.ts
+const CONFIG = {
+  // ...
+  publications: [
+    {
+      title: 'Publication Title',
+      conferenceName: 'Conference Name',
+      journalName: 'Journal Name',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    },
+  ],
+};
+```
+
+Empty array will hide the publications section.
 
 ### Blog Posts
 
