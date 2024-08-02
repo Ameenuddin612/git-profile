@@ -102,10 +102,17 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'AOSSIE (Google Summer of Code)',
+      position: 'Flutter Developer - Full time',
+      from: 'June 2024',
+      to: 'September 2024',
+      companyLink: 'https://aossie.org/',
+    },
+    {
       company: 'Cattle GURU (Cattleguru Pvt. Ltd.)',
       position: 'Software Engineer - Full time',
       from: 'May 2023',
-      to: 'Present',
+      to: 'June 2024',
       companyLink: 'https://cattleguru.in',
     },
     {
