@@ -80,7 +80,7 @@ const CONFIG = {
     email: 'mohsin.lp710@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1EZfJo6Jm3k90pjphozewN_YY8l1v8IiC/view', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1kasJVqal_KhNS2C5opR5DRHgik9cXRja/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'HTML/CSS',
@@ -105,7 +105,7 @@ const CONFIG = {
       company: 'AOSSIE (Google Summer of Code)',
       position: 'Flutter Developer - Full time',
       from: 'June 2024',
-      to: 'September 2024',
+      to: 'August 2024',
       companyLink: 'https://aossie.org/',
     },
     {
