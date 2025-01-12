@@ -6,33 +6,19 @@
   <h4 align="center">Easy to use automatic portfolio builder for every GitHub user!</h4>
 
   <p align="center">
-    <a href="https://codeclimate.com/github/arifszn/gitprofile/maintainability">
-      <img src="https://api.codeclimate.com/v1/badges/c60f42d7d0b61bd33e98/maintainability" />
-    </a>
-    <a href="https://github.com/arifszn/gitprofile/actions/workflows/test-deploy.yml">
-      <img src="https://github.com/arifszn/gitprofile/actions/workflows/test-deploy.yml/badge.svg" />
-    </a>
-    <a href="https://github.com/arifszn/gitprofile/issues">
-      <img src="https://img.shields.io/github/issues/arifszn/gitprofile"/>
-    </a>
-    <a href="https://github.com/arifszn/gitprofile/stargazers">
-      <img src="https://img.shields.io/github/stars/arifszn/gitprofile"/>
-    </a>
-    <a href="https://github.com/arifszn/gitprofile/network/members">
-      <img src="https://img.shields.io/github/forks/arifszn/gitprofile"/>
-    </a>
-    <a href="https://github.com/arifszn/gitprofile/commits/main">
-      <img src="https://img.shields.io/github/last-commit/arifszn/gitprofile/main"/>
-    </a>
-    <a href="https://github.com/arifszn/gitprofile/blob/main/CONTRIBUTING.md">
-      <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
-    </a>
-    <a href="https://github.com/arifszn/gitprofile/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/arifszn/gitprofile"/>
-    </a>
-    <a href="https://twitter.com/intent/tweet?text=Check%20out%20the%20portfolio%20builder.%20Create%20an%20automatic%20portfolio%20based%20on%20GitHub%20profile.&url=https://github.com/arifszn/gitprofile&hashtags=javascript,opensource,js,webdev,developers">
-      <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Farifszn%2Fgitprofile"/>
-    </a>
+    <a href="https://codeclimate.com/github/arifszn/gitprofile/maintainability"><img src="https://api.codeclimate.com/v1/badges/c60f42d7d0b61bd33e98/maintainability" /></a>
+    <a href="https://github.com/arifszn/gitprofile/actions/workflows/test-deploy.yml"><img src="https://github.com/arifszn/gitprofile/actions/workflows/test-deploy.yml/badge.svg" /></a>
+    <a href="https://github.com/arifszn/gitprofile/issues"><img src="https://img.shields.io/github/issues/arifszn/gitprofile"/></a>
+    <a href="https://github.com/arifszn/gitprofile/stargazers"><img src="https://img.shields.io/github/stars/arifszn/gitprofile"/></a>
+    <a href="https://github.com/arifszn/gitprofile/network/members"><img src="https://img.shields.io/github/forks/arifszn/gitprofile"/></a>
+    <a href="https://github.com/arifszn/gitprofile/commits/main"><img src="https://img.shields.io/github/last-commit/arifszn/gitprofile/main"/></a>
+    <a href="https://github.com/arifszn/gitprofile/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/></a>
+    <a href="https://github.com/arifszn/gitprofile/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/gitprofile"/></a>
+    <a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Farifszn%2Fgitprofile"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.idx.dev/btn/open_dark_20.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://cdn.idx.dev/btn/open_light_20.svg">
+        <img height="20" alt="Open in IDX" src="https://cdn.idx.dev/btn/open_purple_20.svg">
+      </picture></a>
   </p>
 
   <p align="center">
@@ -118,6 +104,17 @@ Your portfolio website will be live shortly. Any time you commit a change to the
 If you wish to add a custom domain, no CNAME file is required. Just add it to your repo's **Settings** ➜ **Pages** ➜ **Custom domain**.
 
 As this is a Vite project, you can also host your website to Netlify, Vercel, Heroku, or other popular services. Please refer to this [doc](https://vitejs.dev/guide/static-deploy.html) for a detailed deployment guide to other services.
+
+> [!NOTE]
+> If you are going to deploy using **Vercel**, remember to set the `base` as `/`.
+
+```ts
+// gitprofile.config.ts
+{
+  base: '/',
+  // ...
+}
+```
 
 [**Not working?**](https://github.com/arifszn/gitprofile/discussions/548)
 
