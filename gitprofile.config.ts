@@ -58,8 +58,8 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'thatceokid',
-    twitter: '0xthatceokid',
+    linkedin: 'mohsinxyz',
+    twitter: 'mohsinxyz_',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -75,7 +75,7 @@ const CONFIG = {
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://thatceokid.xyz',
+    website: 'https://mohsin.xyz',
     phone: '',
     email: 'mohsin.lp710@gmail.com',
   },
