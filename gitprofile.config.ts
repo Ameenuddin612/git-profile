@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'mdmohsin7', // Your GitHub org/user name. (Required)
+    username: 'Ameenuddin612', // Your GitHub org/user name. (Required)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -17,9 +17,9 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 10, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -53,13 +53,12 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Mohammed Mohsin',
+    title: 'Portfolio of Ameenuddin',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'mohsinxyz',
-    twitter: 'mohsinxyz_',
+    linkedin: 'https://www.linkedin.com/in/ameenuddin612/',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -75,80 +74,50 @@ const CONFIG = {
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://mohsin.xyz',
+    website: 'https://ameenuddin.me',
     phone: '',
-    email: 'mohsin.lp710@gmail.com',
+    email: 'ameenuddin612@gmail.com',
   },
   resume: {
     fileUrl: 'https://drive.google.com/file/d/1kasJVqal_KhNS2C5opR5DRHgik9cXRja/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'HTML/CSS',
-    'Dart',
-    'GO',
-    'Java',
-    'JavaScript',
-    'SvelteJs',
-    'AngularDart',
-    'Flutter',
-    'Cosmos SDK',
+    'Python',
+    'HTML',
+    'CSS',
+    'Shell Scripting',
+    'AWS IAM',
+    'AWS EC2',
+    'AWS S3',
+    'AWS CloudFormation',
+    'AWS Auto Scaling',
+    'AWS Load Balancing',
+    'AWS Route53',
+    'AWS RDS',
+    'AWS CloudWatch',
+    'High Availability',
+    'Fault Tolerance',
+    'Terraform',
+    'Ansible',
     'Docker',
+    'Jenkins',
+    'Kubernetes',
+    'Linux',
+    'Amazon VPC',
+    'VPC Peering',
+    'NAT Gateway',
     'Git',
-    'Firebase',
-    'Netlify',
-    'Vercel',
-    'Google Cloud Platform',
-    'Oracle Cloud Infrastructure',
+    'GitHub',
+    'VS Code',
+    'SonarQube',
   ],
   experiences: [
     {
-      company: 'AOSSIE (Google Summer of Code)',
-      position: 'Flutter Developer - Full time',
-      from: 'June 2024',
-      to: 'August 2024',
-      companyLink: 'https://aossie.org/',
-    },
-    {
-      company: 'Cattle GURU (Cattleguru Pvt. Ltd.)',
-      position: 'Software Engineer - Full time',
-      from: 'May 2023',
-      to: 'June 2024',
-      companyLink: 'https://cattleguru.in',
-    },
-    {
-      company: 'Skilcamp',
-      position: 'Flutter Tutor - Part time',
-      from: 'September 2023',
-      to: 'October 2023',
-      companyLink: 'https://skilcamp.in',
-    },
-    {
-      company: 'Cypherock (HODL Tech Pvt. Ltd.)',
-      position: 'Flutter App Developer - Contractor',
-      from: 'January 2023',
-      to: 'March 2023',
-      companyLink: 'https://cypherock.com',
-    },
-    {
-      company: 'Spoon (PaySpoon Technologies)',
-      position: 'Associate Technology Engineer - Internship',
-      from: 'September 2022',
-      to: 'December 2022',
-      companyLink: 'https://spoon.money',
-    },
-    {
-      company: 'EazyPG (EazyApp Tech Pvt. Ltd.)',
-      position: 'Flutter Developer - Internship',
-      from: 'February 2022',
-      to: 'August 2022',
-      companyLink: 'https://eazypg.in',
-    },
-    {
-      company: 'Pet Perfect',
-      position: 'Mobile Application Developer - Internship',
-      from: 'November 2021',
-      to: 'December 2021',
-      companyLink: 'https://petperfect.in',
+      company: 'Rejolt Edtech Pvt Ltd.',
+      position: 'Web Developer - Internship',
+      from: 'June 2022',
+      to: 'July 2022',
+      companyLink: 'https://www.rejoltedtech.com/',
     },
   ],
   // certifications: [
@@ -161,10 +130,16 @@ const CONFIG = {
   // ],
   educations: [
     {
-      institution: 'Nawab Shah Alam Khan College of Engg. and Tech.',
+      institution: 'Lords Institute of Engineering and Technology',
       degree: 'Bachelor of Engineering - Information Technology',
       from: 'August 2019',
-      to: 'June 2023',
+      to: 'July 2023',
+    },
+    {
+      institution: 'Muffakham Jah College of Engineering and Technology',
+      degree: 'Master of Technology - Computer Science and Engineering',
+      from: 'October 2023',
+      to: 'October 2025',
     },
   ],
   publications: [
@@ -190,8 +165,8 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'mdmohsin7', // to hide blog section, keep it empty
-    limit: 3, // How many articles to display. Max is 10.
+    username: '', // to hide blog section, keep it empty
+    limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -275,3 +250,4 @@ const CONFIG = {
 };
 
 export default CONFIG;
+
