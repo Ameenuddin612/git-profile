@@ -27,7 +27,7 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
+      /*projects: [
         {
           title: 'Papersy',
           description:
@@ -49,16 +49,16 @@ const CONFIG = {
           imageUrl: 'https://raw.githubusercontent.com/mdmohsin7/bloggie/master/screenshots/Vector-Galaxy-s20-Mockup.png',
           link: 'https://github.com/mdmohsin/bloggie',
         },
-      ],
+      ],*/
     },
   },
   seo: {
     title: 'Portfolio of Ameenuddin',
-    description: '',
+    description: 'AWS & DevOps Engineer',
     imageURL: '',
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/ameenuddin612/',
+    linkedin: 'ameenuddin612',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -79,7 +79,7 @@ const CONFIG = {
     email: 'ameenuddin612@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/1kasJVqal_KhNS2C5opR5DRHgik9cXRja/view', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1riKpNS5GtvS-PJVhXSqCDaEHNY_457EF/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -130,16 +130,16 @@ const CONFIG = {
   // ],
   educations: [
     {
-      institution: 'Lords Institute of Engineering and Technology',
-      degree: 'Bachelor of Engineering - Information Technology',
-      from: 'August 2019',
-      to: 'July 2023',
-    },
-    {
       institution: 'Muffakham Jah College of Engineering and Technology',
       degree: 'Master of Technology - Computer Science and Engineering',
       from: 'October 2023',
       to: 'October 2025',
+    },
+    {
+      institution: 'Lords Institute of Engineering and Technology',
+      degree: 'Bachelor of Engineering - Information Technology',
+      from: 'August 2019',
+      to: 'July 2023',
     },
   ],
   publications: [
